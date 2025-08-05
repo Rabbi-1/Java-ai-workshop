@@ -1,4 +1,4 @@
-package com.dev.Rabbi.java_ai_workshop.multimodel;
+package com.dev.Rabbi.java_ai_workshop.multimodel.Image;
 
 import org.springframework.core.io.Resource;
 import org.springframework.ai.chat.client.ChatClient;

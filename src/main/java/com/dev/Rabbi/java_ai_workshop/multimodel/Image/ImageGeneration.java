@@ -1,4 +1,4 @@
-package com.dev.Rabbi.java_ai_workshop.multimodel;
+package com.dev.Rabbi.java_ai_workshop.multimodel.Image;
 
 import org.springframework.ai.image.ImageOptions;
 import org.springframework.ai.image.ImagePrompt;
