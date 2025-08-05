@@ -1,6 +1,4 @@
 package com.dev.Rabbi.java_ai_workshop.multimodel.audio;
-
-
 import org.springframework.ai.openai.OpenAiAudioSpeechModel;
 import org.springframework.ai.openai.OpenAiAudioSpeechOptions;
 import org.springframework.ai.openai.api.OpenAiAudioApi;
