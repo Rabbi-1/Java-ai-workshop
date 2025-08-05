@@ -20,7 +20,7 @@ public class ImageDetection {
     }
 
     @GetMapping("/image-to-text")
-    public String image() throws IOException {
+    public String image() {
         return chatClient.prompt()
                 .user(u -> u
                         .text("Can you please explain what you see in the following image?")
