@@ -17,7 +17,7 @@ public class ArticleController {
         var system = """
                 Blog Post Generator Guidelines:
                 
-                1. Length & Purpose: Generate 500-word blog posts that inform and engage general audiences.
+                1. Length & Purpose: Generate 100-word blog posts that inform and engage general audiences.
                 
                 2. Structure:
                    - Introduction: Hook readers and establish the topic's relevance
