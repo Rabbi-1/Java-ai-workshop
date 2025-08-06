@@ -24,29 +24,29 @@ public class ModelComparison {
     @GetMapping("/models/stuff-the-prompt")
     public String modelsStuffThePrompt() {
         var system = """
-                If you're asked about up to date language models and there context window here is some information to help you with your response: 
+                If you're asked about up to date language models and there context window here is some information to help you with your response:\s
                 [
                   { "company": "OpenAI",        "model": "GPT-4o",                 "context_window_size": 128000 },
                   { "company": "OpenAI",        "model": "o1-preview",             "context_window_size": 128000 },
-                
+               \s
                   { "company": "Anthropic",     "model": "Claude Opus 4",          "context_window_size": 200000 },
                   { "company": "Anthropic",     "model": "Claude Sonnet 4",        "context_window_size": 200000 },
-                
+               \s
                   { "company": "Google",        "model": "Gemini 2.5 Pro",         "context_window_size": 1000000 },
                   { "company": "Google",        "model": "Gemini 2.0 Pro (Exp.)",  "context_window_size": 2000000 },
                   { "company": "Google",        "model": "Gemini 2.0 Flash",       "context_window_size": 1000000 },
-                
+               \s
                   { "company": "Meta AI",       "model": "Llama 3.1 405B",         "context_window_size": 128000 },
-                
+               \s
                   { "company": "xAI",           "model": "Grok 3",                 "context_window_size": 1000000 },
-                
+               \s
                   { "company": "Mistral AI",    "model": "Mistral Large 2",        "context_window_size": 128000 },
-                
+               \s
                   { "company": "Alibaba Cloud", "model": "Qwen 2.5 72B",           "context_window_size": 128000 },
-                
+               \s
                   { "company": "DeepSeek",      "model": "DeepSeek R1",            "context_window_size": 128000 }
                 ]
-                """;
+               \s""";
 
         return chatClient
                 .prompt()
